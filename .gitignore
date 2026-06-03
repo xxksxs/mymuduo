@@ -1,0 +1,23 @@
+# 编译目录和构建产物
+build/
+lib/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# 测试生成的可执行文件
+example/testserver
+
+# 目标文件及库
+*.o
+*.a
+*.so
+
+# VSCode 配置文件 (按需)
+.vscode/
+
+# 崩溃产生的core dump文件
+core
+core.*
